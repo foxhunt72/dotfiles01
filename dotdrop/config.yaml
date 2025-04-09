@@ -1,0 +1,22 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: ~/git/desktop/dotfiles01
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+  minversion: 1.15.0
+dotfiles:
+  dotdrop:
+    src: dotdrop
+    dst: ~/.config/dotdrop
+    link: absolute
+profiles:
+  Default:
+    dotfiles:
+    - dotdrop
+  rdv-msi-ubuntu2024:
+    include:
+    - Default
