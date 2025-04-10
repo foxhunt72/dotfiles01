@@ -2,7 +2,7 @@ config:
   backup: true
   banner: true
   create: true
-  dotpath: ~/git/desktop/dotfiles01
+  dotpath: ~/git/desktop/dotfiles01/dotfiles
   keepdot: false
   link_dotfile_default: nolink
   link_on_import: nolink
@@ -13,10 +13,18 @@ dotfiles:
     src: dotdrop
     dst: ~/.config/dotdrop
     link: absolute
+  alacritty:
+    src: alacritty
+    dst: ~/.config/alacritty
+    link: absolute
 profiles:
   Default:
     dotfiles:
     - dotdrop
+    - alacritty
   rdv-msi-ubuntu2024:
+    include:
+    - Default
+  J7VZST3:
     include:
     - Default

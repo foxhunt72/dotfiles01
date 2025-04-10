@@ -1,0 +1,34 @@
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 12.0
+
+[font.bold]
+# family = "MesloLGS Nerd Font Mono"
+family = "SauceCodePro Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "SauceCodePro Nerd Font Mono"
+# family = "MesloLGS Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "SauceCodePro Nerd Font Mono"
+# family = "MesloLGS Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+# family = "MesloLGS Nerd Font Mono"
+#family = "CaskaydiaCove Nerd Font"
+family = "SauceCodePro Nerd Font Mono"
+#style = "Regular"
+style = "Medium"
+
+#  "~/.config/alacritty/catppuccin-mocha.toml"
+[general]
+import = [
+  "~/.config/alacritty/colours-richard.toml"
+]
