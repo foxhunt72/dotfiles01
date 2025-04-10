@@ -32,3 +32,8 @@ style = "Medium"
 import = [
   "~/.config/alacritty/colours-richard.toml"
 ]
+live_config_reload = true
+
+[scrolling]
+history = 100000
+

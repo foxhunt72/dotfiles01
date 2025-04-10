@@ -1,11 +1,6 @@
 [colors.primary]
-#background = "#1E1E2E"
 background = "#000000"
-#foreground = "#CDD6F4"
 foreground = "#979797"
-#dim_foreground = "#CDD6F4"
-dim_foreground = "#888888"
-#bright_foreground = "#CDD6F4"
 bright_foreground = "#979797"
 
 [colors.cursor]
@@ -42,15 +37,11 @@ background = "#F5E0DC"
 
 [colors.normal]
 black = "#45475A"
-#red = "#F38BA8"
 red = "#cf0000"
 green = "#A6E3A1"
-#yellow = "#F9E2AF"
 yellow = "#c5a100"
-#blue = "#89B4FA"
 blue = "#3465a5"
 magenta = "#F5C2E7"
-#cyan = "#94E2D5"
 cyan = "#06989a"
 white = "#BAC2DE"
 
@@ -63,16 +54,6 @@ blue = "#89B4FA"
 magenta = "#F5C2E7"
 cyan = "#94E2D5"
 white = "#A6ADC8"
-
-[colors.dim]
-black = "#45475A"
-red = "#F38BA8"
-green = "#A6E3A1"
-yellow = "#F9E2AF"
-blue = "#89B4FA"
-magenta = "#F5C2E7"
-cyan = "#94E2D5"
-white = "#BAC2DE"
 
 [[colors.indexed_colors]]
 index = 16
