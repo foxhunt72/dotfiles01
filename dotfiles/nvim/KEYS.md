@@ -1,3 +1,7 @@
+# nvim checks
+
+setup using: [youtube](https://www.youtube.com/watch?v=IobijoroGE0)
+
 - backslash \   file choicer
 - shift-k  get info
 
