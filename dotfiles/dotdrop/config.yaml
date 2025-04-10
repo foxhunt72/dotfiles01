@@ -17,14 +17,30 @@ dotfiles:
     src: alacritty
     dst: ~/.config/alacritty
     link: absolute
+  alacritty_msi:
+    src: alacritty-msi
+    dst: ~/.config/alacritty
+    link: absolute
+  nvim:
+    src: nvim
+    dst: ~/.config/nvim
+    link: absolute
 profiles:
   Default:
     dotfiles:
     - dotdrop
+    - nvim
+  msi:
+    dotfiles:
+    - alacritty_msi
+  display4k:
+    dotfiles:
     - alacritty
   rdv-msi-ubuntu2024:
     include:
     - Default
+    - msi
   J7VZST3:
     include:
     - Default
+    - display4k
