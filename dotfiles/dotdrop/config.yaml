@@ -8,34 +8,39 @@ config:
   link_on_import: nolink
   longkey: false
   minversion: 1.15.0
+
+variables:
+  font_size: '12.0'
 dotfiles:
   dotdrop:
     src: dotdrop
     dst: ~/.config/dotdrop
     link: absolute
   alacritty:
-    src: alacritty
-    dst: ~/.config/alacritty
-    link: absolute
-  alacritty_msi:
-    src: alacritty-msi
+    src: alacritty-template
     dst: ~/.config/alacritty
     link: absolute
   nvim:
     src: nvim
     dst: ~/.config/nvim
     link: absolute
+  copyq:
+    src: copyq
+    dst: ~/.config/copyq
+    link: link_children
 profiles:
   Default:
     dotfiles:
     - dotdrop
     - nvim
-  msi:
-    dotfiles:
-    - alacritty_msi
-  display4k:
-    dotfiles:
     - alacritty
+    - copyq
+  msi:
+    variables:
+      font_size: '15.0'
+  display4k:
+    variables:
+      font_size: '12.0'
   rdv-msi-ubuntu2024:
     include:
     - Default
