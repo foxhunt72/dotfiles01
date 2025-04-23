@@ -20,6 +20,10 @@ dotfiles:
     src: alacritty-template
     dst: ~/.config/alacritty
     link: absolute
+  atuin:
+    src: atuin
+    dst: ~/.config/atuin
+    link: absolute
   nvim:
     src: nvim
     dst: ~/.config/nvim
@@ -33,6 +37,12 @@ profiles:
     dotfiles:
     - dotdrop
     - nvim
+    - atuin
+  msi:
+    dotfiles:
+    - alacritty
+  display4k:
+    dotfiles:
     - alacritty
     - copyq
   msi:
