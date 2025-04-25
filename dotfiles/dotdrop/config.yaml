@@ -38,11 +38,6 @@ profiles:
     - dotdrop
     - nvim
     - atuin
-  msi:
-    dotfiles:
-    - alacritty
-  display4k:
-    dotfiles:
     - alacritty
     - copyq
   msi:
