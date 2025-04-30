@@ -42,7 +42,7 @@ profiles:
     - copyq
   msi:
     variables:
-      font_size: '15.0'
+      font_size: '16.0'
   display4k:
     variables:
       font_size: '12.0'
